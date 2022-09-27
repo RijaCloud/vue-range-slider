@@ -1,6 +1,6 @@
 {
   "name": "vue3-range-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A range slider component based on vue (Vue滑块组件).",
   "main": "dist/vue-range-slider.js",
   "module": "dist/vue-range-slider.esm.js",
