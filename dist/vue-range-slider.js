@@ -3,6 +3,7 @@
  * (c) 2016-2019 xwpongithub
  * Released under the MIT License.
  */
+import { h } from "vue"
 
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
@@ -317,7 +318,7 @@
         isMounted: false
       };
     },
-    render: function render(h) {
+    render: function render() {
       var _this = this;
 
       var sliderConBlocks = []; // dot
