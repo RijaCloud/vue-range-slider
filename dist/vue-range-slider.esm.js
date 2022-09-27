@@ -3,6 +3,7 @@
  * (c) 2016-2019 xwpongithub
  * Released under the MIT License.
  */
+import { h } from "vue"
 
 // Unsharp text [#166](https://github.com/NightCatSama/vue-slider-component/issues/166)
 var roundToDPR = function () {
@@ -311,7 +312,7 @@ var Slider = {
       isMounted: false
     };
   },
-  render: function render(h) {
+  render: function render() {
     var _this = this;
 
     var sliderConBlocks = []; // dot
