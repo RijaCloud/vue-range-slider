@@ -1,3 +1,5 @@
+# IMPORTANT : this is an updated version of https://github.com/xwpongithub/vue-range-slider
+
 # vue-range-slider
 A range slider component based on vue (Vue滑块组件).
 
