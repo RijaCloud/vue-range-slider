@@ -1,5 +1,5 @@
 import {roundToDPR, isMobile, isArray, isDiff, prefixStyle, addEvent, removeEvent} from './utils'
-
+import { h } from "vue" 
 const transform = prefixStyle('transform')
 const transitionDuration = prefixStyle('transitionDuration')
 const transitionEnd = prefixStyle('transitionEnd')
@@ -220,7 +220,7 @@ export default {
       isMounted: false
     }
   },
-  render(h) {
+  render() {
     const sliderConBlocks = []
 
     // dot
